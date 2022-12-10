@@ -7,7 +7,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt update
-sudo apt install brave-browser libreoffice htop gimp vlc code virtualbox clamav clamav-daemon simplescreenrecorder pitivi geary caffeine ulauncher neofetch -y
+sudo apt install brave-browser libreoffice htop gimp vlc code clamav clamav-daemon simplescreenrecorder pitivi geary caffeine neofetch -y
 echo "Your desktop has been installed. Please restart your computer to see the changes."
 echo "Thank you for using DebDE Installer."
 exit 1
